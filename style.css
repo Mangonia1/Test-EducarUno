@@ -1,0 +1,22 @@
+.banner{
+    max-height: 15rem;
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+}
+
+.body-background{
+    background-color: #9ed0f0;
+}
+
+.navbar-background{
+    background-color: #8eafc4;
+    padding: 0% !important;
+}
+.btn-nav-style{
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
+    padding-left: .2rem !important;
+    padding-right: .2rem !important;
+    max-width: 6% !important;
+}
+
