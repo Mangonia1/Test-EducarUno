@@ -1,3 +1,4 @@
+//Script for the special effects added when you click a navbar button.
 const navSelecEls = document.querySelectorAll('.nav_select');
 
 navSelecEls.forEach(navSelecEl=>{
