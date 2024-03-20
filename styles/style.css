@@ -1,0 +1,108 @@
+.banner{
+    max-height: 15rem;
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+}
+
+.body-background{
+    background-color: #9ed0f0;
+}
+
+.body-container-background{
+    background-color: white;
+}
+
+.navbar-background{
+    background-color: #8eafc4;
+    padding: 0% !important;
+}
+
+.footer-background{
+    background-color: #8eafc4;
+    padding: 0% !important;
+}
+.icon-background{
+    background-color: #3c78d8;
+    color: white;
+    display:unset;
+    padding: .2rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    text-align: center;
+    height: 1rem !important;
+    width: 1rem !important;
+}
+.btn-nav-style{
+    text-size-adjust: 1rem;
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
+    padding-left: .2rem !important;
+    padding-right: .2rem !important;
+    max-width: 6% !important;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    word-wrap: break-word;
+    display: block;
+    line-height: 4em;
+  max-height: 5em;
+  min-width: 5em;
+    position: relative !important;
+    pointer-events: all !important;
+    
+}
+.btn-active{
+    background-color: #3c78d8 !important;
+    border-color: #3c78d8 !important;
+    transform: scale(1.05);
+}
+
+@import url(//fonts.googleapis.com/css?family=Nunito);
+
+.text-unit-name{
+    font-size: 26px;
+    font-weight:black;
+    font-family:'Nunito', sans-serif;
+    text-align: left;
+    color: #3c78d8;
+}
+
+.text-title{
+    font-size: 22px;
+    font-weight:600;
+    font-family:'Nunito', sans-serif;
+    text-align: center;
+    color: #3c78d8;
+}
+
+.text-important{
+    font-size: 18px;
+    font-weight:bold;
+    font-family:'Nunito', sans-serif;
+    color: #0b5394;
+}
+
+.text-regular{
+    font-size: 18px;
+    font-family:'Nunito', sans-serif;
+    text-align: justify;
+    color: #000000;
+}
+
+.text-instruction{
+    font-size: 18px;
+    font-weight:bold;
+    font-family:'Nunito', sans-serif;
+    text-align: justify;
+}
+
+.image-style{
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+    transition: all .3s ease-in-out;
+    background-size:-2rem !important;
+}
+.image-style:hover{
+    transform: translate3d(0px, -10px, 0px);
+    transform: scale(1.05);
+}
+
+
