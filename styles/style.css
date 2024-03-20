@@ -27,7 +27,9 @@
     min-height: 3rem;
     color: white !important;
     font-size: small;
+    font-family:'Nunito', sans-serif !important;
 }
+
 .icon-background{
     background-color: #3c78d8;
     color: white;
@@ -39,6 +41,7 @@
     height: 1rem !important;
     width: 1rem !important;
 }
+
 .btn-nav-style{
     text-size-adjust: 1rem;
     margin-top: .5rem !important;
@@ -51,15 +54,19 @@
     word-wrap: break-word;
     display: block;
     line-height: 4em;
-  max-height: 5em;
-  min-width: 5em;
+    max-height: 5em;
+    min-width: 5em;
     position: relative !important;
     pointer-events: all !important;
-    
+    color: #3c78d8 !important;
+    font-family:'Nunito', sans-serif !important;
+    font-weight: bold !important;
 }
+
 .btn-active{
     background-color: #3c78d8 !important;
     border-color: #3c78d8 !important;
+    color: #ffffff !important;
     transform: scale(1.05);
 }
 
@@ -103,13 +110,16 @@
 }
 
 .text-video-source{
-    font-size: x-small;
+    font-family:'Nunito', sans-serif;
+    font-size: 14px;
     justify-content: end;
     text-align: end;
 }
+
 .text-video-source a{
     color: inherit !important;
 }
+
 .ul-style{
     list-style:decimal;
     display: inline !important;
