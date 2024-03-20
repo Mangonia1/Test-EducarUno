@@ -19,7 +19,14 @@
 
 .footer-background{
     background-color: #8eafc4;
-    padding: 0% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    padding-top: 1.5rem !important;
+    min-height: 3rem;
+    color: white !important;
+    font-size: small;
 }
 .icon-background{
     background-color: #3c78d8;
@@ -95,14 +102,33 @@
     text-align: justify;
 }
 
+.text-video-source{
+    font-size: x-small;
+    justify-content: end;
+    text-align: end;
+}
+.text-video-source a{
+    color: inherit !important;
+}
+.ul-style{
+    list-style:decimal;
+    display: inline !important;
+}
+
+.ul-style li p{
+    display: inline !important;
+}
+
 .image-style{
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
     transition: all .3s ease-in-out;
     background-size:-2rem !important;
 }
+
 .image-style:hover{
     transform: translate3d(0px, -10px, 0px);
     transform: scale(1.05);
 }
+
 
 
